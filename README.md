@@ -62,6 +62,8 @@ npm start
 ## Usage
 Link to site: 
 
+![Quick run through](./public/images/techblogRunthrough.gif)
+
 ## Credits
 
 Made by [Dale Duivesteyn](https://github.com/DaleDuiv)

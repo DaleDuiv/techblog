@@ -1,4 +1,23 @@
 {
+
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "techblog",
+  "description": "This week we needed to develop a fullstack tech blog with no prior code.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaleDuiv/techblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaleDuiv/techblog/issues"
+  },
+  "homepage": "https://github.com/DaleDuiv/techblog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
@@ -9,4 +28,6 @@
     "mysql2": "^3.0.1",
     "sequelize": "^6.28.0"
   }
+
+  
 }
