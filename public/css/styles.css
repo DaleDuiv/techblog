@@ -1,0 +1,219 @@
+:root {
+  --dark: black;
+  --light: rgb(164, 187, 179);
+  --shadow: #979797;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: var(--light);
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#errorText {
+  color: red;
+}
+
+/* Main */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: var(--dark);
+}
+
+header nav {
+  display: flex;
+  gap: 3rem;
+  color: var(--light);
+  font-size: large;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+header nav a:hover {
+  color: white;
+}
+
+#title {
+  padding: 0.5rem 1.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem var(--shadow);
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+/* Login, Sign Up, Dashboard */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 2.5rem;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--light);
+  background-color: var(--dark);
+  border: 0.3rem solid black;
+  padding: 0.1rem 0.8rem;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0.3rem solid black;
+  padding: 0.8rem;
+  border-top: none;
+}
+
+.card .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  border: 0.3rem solid black;
+  padding: 0.8rem;
+  border-top: none;
+  background-color: var(--light);
+  color: var(--dark);
+  gap: 0.5rem;
+}
+
+.card form label {
+  padding-bottom: 0.5rem;
+}
+
+.card form input {
+  padding: 0.5rem;
+}
+
+.button {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 6px 14px;
+border-radius: 6px;
+border: none;
+font-size: 20px;
+
+background: #6E6D70;
+box-shadow: 10px 10px 5px 0px var(--shadow);
+color: #DFDEDF;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button:hover {
+box-shadow: 10px 10px 5px 0px var(--shadow);
+
+}
+
+/* Dashboard Modal */
+
+#modal-button {
+  position: absolute; 
+  margin-left: -100px;
+  left: 50%;
+  width: 200px;
+  bottom: 20px;
+  font-size: 2rem;
+  background-color: var(--dark);
+}
+
+#buttons-modal {
+  background-color: var(--light);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#dashboard-modal {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  width: 95%;
+  top: 8rem;
+  background-color: var(--light);
+}
+
+/* Homepage Card */
+
+#card-title {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#card-body {
+  background-color: var(--light);
+  color: var(--dark);
+  padding: 1rem;
+  border-top: none;
+}
+
+#homepage-card:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 5px 0px var(--shadow);
+}
+
+/* Dashboard Posts */
+
+#post-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.5rem 2.5rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #6f6f6f;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.post:hover {
+  background-color: #c9c5d1;
+  cursor: pointer;
+}
+
+/* Comment Card  */
+
+.card .comment {
+  background-color: var(--light);
+  color: var(--dark);
+  display: flex;
+  padding: 0.5rem;
+}
+
+.comment-user {
+  align-self: flex-end;
+}
