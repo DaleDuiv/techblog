@@ -12,11 +12,9 @@ The posts must also have a date on them.
 
 ## Table of Contents
 
-- [Key features](#key-features)
-- [Technology stack](#technology-stack)
 - [Installation](#installation)
-- [Usage instructions](#usage-instructions)
-- [Future work](#future-work)
+- [Usage](#usage)
+- [Credits](#credits)
 
 
 ## Installation
