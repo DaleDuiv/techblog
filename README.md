@@ -61,7 +61,7 @@ npm start
 
 ## Usage
 Link to site: 
-
+https://techblog-daleduiv.herokuapp.com/
 ![Quick run through](./public/images/techblogRunthrough.gif)
 
 ## Credits
