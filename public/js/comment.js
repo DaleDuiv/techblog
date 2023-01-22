@@ -7,7 +7,7 @@ const newComment = async (event) => {
   const urlParameter = urlString.split('/')
   const post_id = urlParameter[4]
 
-  const errorMessage = document.getElementById('pass-err')
+  const errorMessage = document.getElementById('textError')
 
   if (!content) {
     errorMessage.style.display = 'block'

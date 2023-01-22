@@ -2,13 +2,13 @@ const login = async (event) => {
   event.preventDefault();
 
   const username = document.querySelector('#user').value.trim();
-  const password = document.querySelector('#pass').value.trim();
+  const password = document.querySelector('#password').value.trim();
 
-  const errorMes = document.getElementById('pass-err')
+  const errorMes = document.getElementById('textError')
 
   if (!username || !password) {
       errorMes.style.display = 'block'
-      errorMes.innerHTML = 'Inputs cannot be black'
+      errorMes.innerHTML = 'Cannot be empty'
   }
 
   if (username && password) {

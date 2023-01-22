@@ -4,7 +4,7 @@ const newPost = async (event) => {
   const title = document.querySelector('#title-input').value.trim();
   const content = document.querySelector('#content').value.trim();
 
-  const errorMessage = document.getElementById('pass-err')
+  const errorMessage = document.getElementById('textError')
 
   if (!title || !content) {
       errorMessage.style.display = 'block'

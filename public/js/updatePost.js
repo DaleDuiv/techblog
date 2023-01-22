@@ -8,7 +8,7 @@ const updatePost = async (event) => {
   const urlParameter = urlString.split('/')
   const post_id = urlParameter[4]
 
-  const errorMes = document.getElementById('pass-err')
+  const errorMes = document.getElementById('textError')
 
   if (!title || !content) {
       errorMes.style.display = 'block'
